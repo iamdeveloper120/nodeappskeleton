@@ -36,8 +36,7 @@ after you have cloned `nodeappskeleton` repository, move to this folder, open cm
 
 ## Nodemon
 
-This package is specially to restart your server automatically when a file is changed or saved. you can start your application typing `nodemon` in cmd  
-Hit `ctrl+c` to exit 
+This package is build specially to restart your server automatically when a file is changed or saved otherwise after each file changes we have to restart server manually. you can start your application by just typing `nodemon` in cmd. hit `ctrl+c` to exit 
 
 ## Security Vulnerabilities
 
