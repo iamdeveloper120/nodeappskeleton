@@ -1,18 +1,25 @@
-<p align="center">Node Application Skeleton</p>
-
 ## About Node Application Skeleton
 
 Node Application Skeleton is a basic sekelton applocation that build on MVC based (Model, View, Controller) for starter purpose where people can just clone this repository and start to development without waisting time for install, configuration and building structure for their app. This repository contain the followings:
 
-- bin.
-    + www.
-        * your server information
-- Models.
-- Views.
-- Controllers.
-- gitignore.
-- app.js.
-- package.json.
+- bin
+    + www (your server information)
+- models
+    + homeModel.js (by defualt)
+- views
+    + error.ejs
+    + index.ejs
+- controllers
+    + homeController.js
+- helpers
+    + globalHelper.js
+- gitignore (by defualt, you can add more)
+    + node_modules
+    + *.txt
+    + .env
+    + .sass-cache
+- app.js
+- package.json
 
 ## Security Vulnerabilities
 
