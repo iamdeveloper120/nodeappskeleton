@@ -24,7 +24,7 @@ Node Application Skeleton is a basic sekelton applocation that build on MVC base
 
 ## Download 
 
-you can download this repository from top right green butto or clone it using git
+you can download this repository from top right green butto or clone it using git  
 `git clone https://github.com/iamdeveloper120/nodeappskeleton.git`
 
 ## How to install Packages
