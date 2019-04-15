@@ -21,6 +21,13 @@ Node Application Skeleton is a basic sekelton applocation that build on MVC base
 - app.js
 - package.json
 
+## How to install Packages
+after you have cloned `nodeappskeleton` repository, move to this folder, open cmd, in current working directory do followings
+`npm install`
+**nodemon**
+`npm install nodemon -g`
+**start your application**
+`nodemon`
 ## Security Vulnerabilities
 
 If you discover a security vulnerability within Node App Skeleton, please send an e-mail to Muhammad Farhan via [itianz@outlook.com](mailto:itianz@outlook.com). All security vulnerabilities will be promptly addressed.
