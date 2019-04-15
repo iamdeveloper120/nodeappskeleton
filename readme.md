@@ -24,15 +24,20 @@ Node Application Skeleton is a basic sekelton applocation that build on MVC base
 
 ## Download 
 
-you can download this repository from top right green butto or clone it using git  
+you can download this repository from top right green button or clone it using git  
 `git clone https://github.com/iamdeveloper120/nodeappskeleton.git`
 
 ## How to install Packages
 
 after you have cloned `nodeappskeleton` repository, move to this folder, open cmd, in current working directory do followings
-`npm install && npm install nodemon -g`
+`npm install && npm install --save-dev nodemon && npm install nodemon -g`
 
-**Start Your Application >** `nodemon`
+**Start Your Application >** `npm start`  
+
+## Nodemon
+
+This package is specially to restart your server automatically when a file is changed or saved. you can start your application typing `nodemon` in cmd  
+Hit `ctrl+c` to exit 
 
 ## Security Vulnerabilities
 
