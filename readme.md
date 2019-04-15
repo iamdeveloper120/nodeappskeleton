@@ -40,7 +40,7 @@ This package is build specially to restart your server automatically when a file
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Node App Skeleton, please send an e-mail to Muhammad Farhan via [itianz@outlook.com](mailto:itianz@outlook.com). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within Node App Skeleton, please send an e-mail to [Muhammad Farhan](https://www.linkedin.com/in/iamdeveloper120/) via [itianz@outlook.com](mailto:itianz@outlook.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
