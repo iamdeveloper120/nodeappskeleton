@@ -12,3 +12,10 @@ exports.index = function(req, res) {
     data.title='node app skeleton';
 	res.render('content', data);
 };
+
+exports.page2 = function(req, res){
+	var data={};
+	data.content_view='page2';
+    data.title='node app skeleton';
+	res.render('content', data);
+}
