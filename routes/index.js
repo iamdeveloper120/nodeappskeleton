@@ -1,9 +1,15 @@
+/**
+ * require express router
+ * create controllers as many as you can in controller directory
+ * require all controllers below just like '../controllers/controllerName'
+ * create route like router.get('address', controller.function)
+ * -----------------------------------------------------------------------
+ */
+
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+var home_controller = require('../controllers/homeController');
+router.get('/', home_controller.index);
 
 module.exports = router;
