@@ -4,6 +4,7 @@ Node Application Skeleton is a basic structure that builds on MVC based (Model, 
 
 ## Download  
 Zip file [Download nodeappskeleton](https://github.com/iamdeveloper120/nodeappskeleton/archive/master.zip)  
+                   `OR`  
 Open cmd and paste, `git clone https://github.com/iamdeveloper120/nodeappskeleton.git`  
 
 ## Git not installed  
