@@ -12,9 +12,9 @@ For linux: open cmd and type  `sudo apt-get install git` [complete guid](https:/
 
 ## How to install Packages  
 after you have cloned `nodeappskeleton` repository, move to this folder, open in current working directory do followings  
-`npm install && npm install --save-dev nodemon && npm install nodemon -g`
-
-**Start Your Application >** `npm start` and goto browser hit thid url `localhost:3000` **OR** `http://127.0.0.1:3000`
+Install all packages `npm install`  
+Start your application `npm start`  
+Goto browser and hit `localhost:3000` **OR** `http://127.0.0.1:3000`  
 
 ## Security Vulnerabilities  
 If you discover a security vulnerability within Node App Skeleton, please send an e-mail to [Muhammad Farhan](https://www.linkedin.com/in/iamdeveloper120/) via [itianz@outlook.com](mailto:itianz@outlook.com). All security vulnerabilities will be promptly addressed.
