@@ -24,6 +24,28 @@ For linux: open cmd and type  `sudo apt-get install git` [complete guid](https:/
 - Step3: `npm start`
 - Step4: open browser `localhost:3000` **OR** `http://127.0.0.1:3000`  
 
+## Database configuration
+default database is `mongodb` can also change it to `mysql`  
+jump to file `config/database.js`
+```javascript
+var defaultdb ='mongodb';
+module.exports = {
+    defaultDbClient: function(){
+        return defaultdb;
+    },
+    getDbConfigruation: function(){
+        return {
+            'username':'',
+            'password':'',
+            'host':'',
+            'port':'',
+            'database':'',
+            'cloud':false
+        }
+    },
+
+}
+```
 ## Security Vulnerabilities  
 If you discover a security vulnerability within Node App Skeleton, please send an e-mail to [Muhammad Farhan](https://www.linkedin.com/in/iamdeveloper120/) via [itianz@outlook.com](mailto:itianz@outlook.com). All security vulnerabilities will be promptly addressed.
 
