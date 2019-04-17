@@ -11,9 +11,12 @@
 	<script src="javascripts/bootstrap.js"></script>
 </head>
 <body>
-	<div class="jumbotron">
-	  <h1 class="display-4"><%= message %> status <%= error.status %></h1>
-	  <p class="lead"><pre><%= error.stack %></pre></p>
+	<div class="jumbotron text-center">
+	  <h1 class="display-4"><!-- <%= message %> --> <%= error.status %> Error</h1>
+	  <p class="lead">
+	  	Page you are requesting for cannot be found
+	  	<pre><!-- <%= error.stack %> --></pre>
+	  </p>
 	  <a class="btn btn-info btn-lg" href="/" role="button">back</a>
 	</div>
 </body>
