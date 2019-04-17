@@ -25,8 +25,9 @@ For linux: open cmd and type  `sudo apt-get install git` [complete guid](https:/
 - Step4: open browser `localhost:3000` **OR** `http://127.0.0.1:3000`  
 
 ## Database configuration
-default database is `mongodb` can also change it to `mysql`  
-jump to file `config/database.js`
+By default database `mongodb` selected but changeable to `mysql` as well  
+jump to file `config/database.js`  
+`cloud` : if you are connecting cloud database, set true `cloud:true`
 ```javascript
 var defaultdb ='mongodb';
 module.exports = {
