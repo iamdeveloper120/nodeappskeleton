@@ -6,7 +6,7 @@ module.exports = {
 			{ name: 'Bloody Mary', drunkness: 3 },
 			{ name: 'Martini', drunkness: 5 },
 			{ name: 'Charli', drunkness: 10 }
-	    ];
+		];
 		data.drinks=drinks;
 		data.tagline=tagline;
 		data.content_view='index';
