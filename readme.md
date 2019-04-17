@@ -11,10 +11,10 @@ For windows: [download git](https://git-scm.com/download/win)
 For linux: open cmd and type  `sudo apt-get install git` [complete guid](https://www.liquidweb.com/kb/install-git-ubuntu-16-04-lts/)
 
 ## How to install Packages  
-after you have cloned `nodeappskeleton` repository, move to this folder, open in current working directory do followings  
-Install all packages `npm install`  
-Start your application `npm start`  
-Goto browser and hit `localhost:3000` **OR** `http://127.0.0.1:3000`  
+- Step1: move to `nodeappskeleton` using cmd
+- Step2: `npm install`
+- Step3: `npm start`
+- Step4: open browser `localhost:3000` **OR** `http://127.0.0.1:3000`  
 
 ## Security Vulnerabilities  
 If you discover a security vulnerability within Node App Skeleton, please send an e-mail to [Muhammad Farhan](https://www.linkedin.com/in/iamdeveloper120/) via [itianz@outlook.com](mailto:itianz@outlook.com). All security vulnerabilities will be promptly addressed.
