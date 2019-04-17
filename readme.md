@@ -3,8 +3,8 @@
 Node Application Skeleton is a basic structure that builds on MVC based (Model, View, Controller) for starter purpose where people can just clone this repository and start to development without waisting their time for installation, configuration and building structure.  
 
 ## Features
-- Fully customized MVC `(Model,View,Controller,routes,config)`
-- Templating `(partial header, footer, content)`
+- Fully customized MVC `(model,view,controller,routes,config)`
+- Templating `(partial header,footer,content)`
 - Global helper `(define functions and use anywhere in project)`
 - Database (mongodb,mysql) `config/database.js`
 - View engine ejs [read documentation](https://ejs.co/#install)
