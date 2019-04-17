@@ -6,7 +6,6 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 globalHelper = require('./helpers/globalHelper');
-console.log(globalHelper.sayhellow('name'));
 
 var app = express();
 
