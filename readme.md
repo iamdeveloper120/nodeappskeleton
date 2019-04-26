@@ -15,8 +15,8 @@ Windows: [download git](https://git-scm.com/download/win)
 Linux: open cmd and type  `sudo apt-get install git` [complete guid](https://www.liquidweb.com/kb/install-git-ubuntu-16-04-lts/)
 
 ## Download and Setup Project  
-Zip file [Download nodeappskeleton](https://github.com/iamdeveloper120/nodeappskeleton/archive/master.zip) `OR`  
-Open cmd and paste, `git clone https://github.com/iamdeveloper120/nodeappskeleton.git`    
+download [master.zip](https://github.com/iamdeveloper120/nodeappskeleton/archive/master.zip) `OR`  
+open cmd,`git clone https://github.com/iamdeveloper120/nodeappskeleton.git`    
 `cd nodeappskeleton`  
 `npm install`  
 `npm start`  
