@@ -10,19 +10,17 @@ Node Application Skeleton is a basic structure that builds on MVC based (Model, 
 - View engine ejs [read documentation](https://ejs.co/#install)
 - Bootstrap 4 [read documentation](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
 
-## Download  
-Zip file [Download nodeappskeleton](https://github.com/iamdeveloper120/nodeappskeleton/archive/master.zip) `OR`  
-Open cmd and paste, `git clone https://github.com/iamdeveloper120/nodeappskeleton.git`  
-
 ## Git not installed  
-For windows: [download git](https://git-scm.com/download/win)  
-For linux: open cmd and type  `sudo apt-get install git` [complete guid](https://www.liquidweb.com/kb/install-git-ubuntu-16-04-lts/)
+Windows: [download git](https://git-scm.com/download/win)  
+Linux: open cmd and type  `sudo apt-get install git` [complete guid](https://www.liquidweb.com/kb/install-git-ubuntu-16-04-lts/)
 
-## How to install Packages  
-- Step1: move to `nodeappskeleton` using cmd
-- Step2: `npm install`
-- Step3: `npm start`
-- Step4: open browser `localhost:3000` **OR** `http://127.0.0.1:3000`  
+## Download and Setup Project  
+Zip file [Download nodeappskeleton](https://github.com/iamdeveloper120/nodeappskeleton/archive/master.zip) `OR`  
+Open cmd and paste, `git clone https://github.com/iamdeveloper120/nodeappskeleton.git`    
+`cd nodeappskeleton`  
+`npm install`  
+`npm start`  
+`localhost:3000` **OR** `http://127.0.0.1:3000`  
 
 ## Database configuration
 By default database `mongodb` selected but changeable to `mysql` as well  
