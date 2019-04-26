@@ -15,7 +15,7 @@
 | DEFAULT DATABASE `mongodb`
 | -------------------------------------------------------------------
 */
-var defaultdb ='mysql';
+var defaultdb ='mongodb';
 
 module.exports = {
 	defaultDbClient: function(){

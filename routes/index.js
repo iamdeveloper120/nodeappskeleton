@@ -11,6 +11,6 @@ var router = express.Router();
 
 var home_controller = require('../controllers/homeController');
 router.get('/', home_controller.index);
-router.get('/page2', home_controller.page2);
+router.get('/documentation', home_controller.documentation);
 
 module.exports = router;

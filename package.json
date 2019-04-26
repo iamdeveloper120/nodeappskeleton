@@ -25,7 +25,5 @@
     "type": "git",
     "url": "https://github.com/iamdeveloper120/nodeappskeleton.git"
   },
-  "devDependencies": {
-    "nodemon": "^1.18.11"
-  }
+  "devDependencies": {}
 }

@@ -1,0 +1,65 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-9">
+      <pre class=""> 
+        <code> 
+          <h4 class="h4">Folder Structure</h3>
+<i class="fas fa-folder"></i> bin
+    <i class="fas fa-file-alt"></i> www
+<i class="fas fa-folder"></i> config
+    <i class="fas fa-file-alt"></i> database.js
+<i class="fas fa-folder"></i> controllers
+    <i class="fas fa-file-alt"></i> homeController.js
+<i class="fas fa-folder"></i> helpers
+    <i class="fas fa-file-alt"></i> dbHelper.js
+    <i class="fas fa-file-alt"></i> globalHelper.js
+<i class="fas fa-folder"></i> models
+    <i class="fas fa-file-alt"></i> homeModel.js
+<i class="fas fa-folder"></i> public
+    <i class="fas fa-folder"></i> images
+    <i class="fas fa-folder"></i> stylesheets
+    <i class="fas fa-folder"></i> javascripts
+<i class="fas fa-folder"></i> routes
+    <i class="fas fa-file-alt"></i> index.js
+<i class="fas fa-folder"></i> views
+    <i class="fas fa-file-alt"></i> header.ejs
+    <i class="fas fa-file-alt"></i> content.ejs
+    <i class="fas fa-file-alt"></i> footer.ejs
+    <i class="fas fa-file-alt"></i> error.ejs
+
+    <i class="fas fa-file-alt"></i> index.ejs
+    <i class="fas fa-file-alt"></i> documantation.ejs
+<i class="fas fa-file-alt"></i> app.js
+
+          <h3 class="h3">Database Configuration</h3>
+Follow Directory <kbd>config/database.js</kbd> and edit <kbd>database.js</kbd>
+Available databases <kbd>mongodb</kbd> and <kbd>mysql</kbd>
+Default Database <kbd>mongodb</kbd>
+
+get database setting <var>dbConfig</var>
+get default database name <var>globalDb</var>
+
+        <h3 class="h3">Helpers</h3>
+Follow Directory <kbd>helpers/globalHelper.js</kbd> and edit <kbd>globalHelper.js</kbd>
+define a function in globalHelper.js and call it anywhere in the project.
+<kbd>sayhellow('yourname') is defined as a example, call it anywhere in views, controllers, models, helpers</kbd>
+
+        <h3 class="h3">Templating</h3>
+These three files are used as a templating in following diretorty <kbd>views/</kbd>
+    --> <i class="fas fa-file-alt"></i> header.ejs
+    --> <i class="fas fa-file-alt"></i> content.ejs
+    --> <i class="fas fa-file-alt"></i> footer.ejs
+
+in every controller method where you want to show a page
+must sent these two indexes. these must be instances of array
+
+function login(){
+  <var>data</var> = {};
+  <var>data.content_view</var>='pagename or path';
+  <var>data.title</var>='title of page';
+  res.render('content', data);
+}
+        </code> 
+    </pre> 
+  </div>
+</div>

@@ -13,9 +13,9 @@ module.exports = {
 		data.title='node app skeleton';
 		res.render('content', data);
 	},
-	page2: function(req, res){
+	documentation: function(req, res){
 		var data={};
-		data.content_view='page2';
+		data.content_view='documentation';
 		data.title='node app skeleton';
 		res.render('content', data);
 	}
